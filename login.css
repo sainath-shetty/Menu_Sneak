@@ -1,0 +1,58 @@
+.btn {
+    margin: 0px 0px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border-radius: 10px;
+    font-style: oblique;
+    cursor: pointer;
+    font-family: "Baloo Bhai 2", cursive;
+    margin: auto;
+  }
+ 
+  .btn:hover {
+    background-color: grey;
+    text-decoration: underline;
+    color: orange;
+  }
+  body{
+      background-image: url(img/login.png);
+  }
+  .container {
+    border: 2px solid white;
+    margin: 96px 290px;
+    padding: 45px 93px;
+    width: 37%;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  .container h1{
+      color: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .formgroup input{
+      text-align: center;
+      border-radius: 10px;
+      display: block;
+      width: 400px;
+      margin: auto;
+      height: 20px;
+      margin: 10px;
+      padding: 2px;
+      border: 4px solid black;
+      font-family: "Baloo Bhai 2", cursive;
+
+  }
+  .containerformgroup{
+      display: block;
+      width: 33%;
+      margin: auto;
+  }
+  .container h1{
+      text-align: center;
+  }
+.container button{
+  display: block;
+  width: 33%;
+  margin: auto;
+}

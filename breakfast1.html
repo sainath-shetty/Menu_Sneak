@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smvitm Breakfast</title>
+    <link rel="stylesheet" href="breakfast1.css" />
+</head>
+<script>
+    function selectNum(){
+        var samosa=document.getElementById("inputsamosa").value;
+        localStorage.setItem("samosa",samosa);
+        return true;
+    }
+    function selectNum1(){
+        var vadapav=document.getElementById("inputvadapav").value;
+        localStorage.setItem("vadapav",vadapav);
+        return true;
+    }
+    function selectNum2()
+    {
+        var burger=document.getElementById("inputburger").value;
+        localStorage.setItem("burger",burger);
+        return false;
+    }
+    function selectNum3()
+    {
+        var banana=document.getElementById("inputbanana").value;
+        localStorage.setItem("banana",banana);
+        return true;
+    }
+    function selectNum4()
+    {
+        var idli=document.getElementById("inputidli").value;
+        localStorage.setItem("idli",idli);
+        return true;
+    }
+    function selectNum5()
+    {
+        var tea=document.getElementById("inputtea").value;
+        localStorage.setItem("tea",tea);
+        return false;
+    }
+    function selectNum6()
+    {
+        var coffee=document.getElementById("inputcoffee").value;
+        localStorage.setItem("coffee",coffee);
+        return true;
+    }
+    function selectNum7()
+    {
+        var sheera=document.getElementById("inputsheera").value;
+        localStorage.setItem("sheera",sheera);
+        return false;
+    }
+    function selectNum8()
+    {
+        var vada=document.getElementById("inputvada").value;
+        localStorage.setItem("vada",vada);
+        return false;
+    }
+    function selectNum9()
+    {
+        var french=document.getElementById("inputfrench").value;
+        localStorage.setItem("french",french);
+        return false;
+    }
+    function selectNum10()
+    {
+        var price=document.getElementById("txt").value;
+        localStorage.setItem("textvalue",price);
+        return false;
+    }
+
+
+    
+        
+</script>
+<body>
+    <section id="home">
+        <h1 class="hprimary center"></h1>
+        <p>
+          
+        </p></section>
+    <div class="box-wrapper">
+       <form action="breakfast.html-Javascript-localstorage.htm">
+            <div class="item" id="item1">Samosa
+                <img src="img/samosa.png" alt="">
+                <select name="input" id="inputsamosa" 
+                onchange="selectNum()">
+            <option value="AVAILABLE">AVAILABLE</option>
+            <option value="UNAVAILABLE">UNAVAILABLE</option>
+        </select></form>
+        <form action="breakfast.html-Javascript-localstorage.htm">
+        <h3>price:</h3>
+        <input type="text" id="txt">
+        <input type="submit" value="click "onclick ="passvalue">
+            </div></form>
+            <form action="breakfast.html-Javascript-localstorage.htm">
+            <div class="item" id="item2">VADAPAV
+                <img src="img/vadapav.png" alt="">
+                <select name="input" id="inputvadapav" 
+                onchange="selectNum1()">
+            <option value="AVAILABLE">AVAILABLE</option>
+            <option value="UNAVAILABLE">UNAVAILABLE</option>
+        </select>
+            </div></form>
+            <form action="breakfast.html-Javascript-localstorage.htm"></form>
+            <div class="item" id="item3">BURGER
+                <img src="img/burger.png" alt="">
+                <select name="input3" id="inputburger" 
+                onchange="selectNum2()">
+            <option value="AVAILABLE">AVAILABLE</option>
+            <option value="UNAVAILABLE">UNAVAILABLE</option>
+        </select>
+            </div></form>
+            <!-- <div class="item" id="item4">Fourthbox</div>
+            <div class="item" id="item5">Fifthbox</div> -->
+            <form action="breakfast.html-Javascript-localstorage.htm"></form>
+            <div class="item" id="item4">BANANA BUNS
+                <img src="img/buns.png" alt="">
+                <select name="input4" id="inputbanana" 
+                onchange="selectNum3()">
+            <option value="AVAILABLE">AVAILABLE</option>
+            <option value="UNAVAILABLE">UNAVAILABLE</option>
+        </select>
+            </div></form>
+            <form action="breakfast.html-Javascript-localstorage.htm"></form>
+            <div class="item" id="item5">IDLI
+                
+                <img src="img/idli.png" alt="">
+                <select name="input5" id="inputidli" 
+                onchange="selectNum4()">
+            <option value="AVAILABLE">AVAILABLE</option>
+            <option value="UNAVAILABLE">UNAVAILABLE</option>
+        </select>
+            </div></form>
+            <form action="breakfast.html-Javascript-localstorage.htm"></form>
+            <div class="item" id="item6">TEA
+                <img src="img/tea.png" alt="">
+                 <select name="input6" id="inputtea" 
+                 onchange="selectNum5()">
+            <option value="AVAILABLE">AVAILABLE</option>
+            <option value="UNAVAILABLE">UNAVAILABLE</option>
+        </select>
+            </div></form>
+            <form action="breakfast.html-Javascript-localstorage.htm"></form>
+            <div class="item" id="item7">COFFEE
+                <img src="img/coffee.png" alt="">
+                <select name="input7" id="inputcoffee" 
+                onchange="selectNum6()">
+            <option value="AVAILABLE">AVAILABLE</option>
+            <option value="UNAVAILABLE">UNAVAILABLE</option>
+        </select></div></form>
+        <form action="breakfast.html-Javascript-localstorage.htm"></form>
+            <div class="item" id="item8">SHEERA
+                <img src="img/sheera.png" alt="">
+                <select name="input8" id="inputsheera" 
+                onchange="selectNum7()">
+            <option value="AVAILABLE">AVAILABLE</option>
+            <option value="UNAVAILABLE">UNAVAILABLE</option>
+        </select></div></form>
+        <form action="breakfast.html-Javascript-localstorage.htm"></form>
+            <div class="item" id="item9">
+                VADA
+            <img src="img/vada.png" alt="">
+            <select name="input9" id="inputvada" 
+            onchange="selectNum8()">
+        <option value="AVAILABLE">AVAILABLE</option>
+        <option value="UNAVAILABLE">UNAVAILABLE</option>
+    </select></div></form>
+    <form action="breakfast.html-Javascript-localstorage.htm"></form>
+            <div class="item" id="item10">FRENCH FRIES
+                <img src="img/french.png" alt="">
+                <select name="input10" id="inputfrench" 
+                onchange="selectNum9()">
+            <option value="AVAILABLE">AVAILABLE</option>
+            <option value="UNAVAILABLE">UNAVAILABLE</option>
+        </select>
+            </div></form>
+        
+
+        
+        
+
+    </div>
+</body>
+</html>
